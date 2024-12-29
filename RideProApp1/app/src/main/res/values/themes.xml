@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!-- Main application theme -->
+    <style name="Theme.BusBookingApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Color customization -->
+        <item name="colorPrimary">@color/primary_yellow</item>
+        <item name="colorPrimaryVariant">@color/dark_yellow</item>
+        <item name="colorSecondary">@color/secondary_yellow</item>
+        <item name="colorSurface">@color/pure_black</item>
+        <item name="colorOnSurface">@color/primary_yellow</item>
+        <item name="android:colorBackground">@color/soft_black</item>
+        <item name="colorOnBackground">@color/primary_yellow</item>
+
+        <!-- Full screen configuration -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="o_mr1">shortEdges</item>
+        <item name="android:navigationBarColor">@color/pure_black</item>
+        <item name="android:statusBarColor">@color/pure_black</item>
+
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/primary_yellow</item>
+        <item name="android:textColorSecondary">@color/secondary_yellow</item>
+    </style>
+
+</resources>
